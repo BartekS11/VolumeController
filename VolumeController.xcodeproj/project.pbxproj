@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D7AE7F972CE60D0500BBE39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AE7F7D2CE60D0400BBE39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AE7F842CE60D0400BBE39F;
+			remoteInfo = VolumeController;
+		};
+		D7AE7FA12CE60D0500BBE39F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AE7F7D2CE60D0400BBE39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AE7F842CE60D0400BBE39F;
+			remoteInfo = VolumeController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7AE7F852CE60D0400BBE39F /* VolumeController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AE7F962CE60D0500BBE39F /* VolumeControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AE7FA02CE60D0500BBE39F /* VolumeControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D7AE7F872CE60D0400BBE39F /* VolumeController */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VolumeController;
+			sourceTree = "<group>";
+		};
+		D7AE7F992CE60D0500BBE39F /* VolumeControllerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VolumeControllerTests;
+			sourceTree = "<group>";
+		};
+		D7AE7FA32CE60D0500BBE39F /* VolumeControllerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VolumeControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7AE7F822CE60D0400BBE39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE7F932CE60D0500BBE39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE7F9D2CE60D0500BBE39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7AE7F7C2CE60D0400BBE39F = {
+			isa = PBXGroup;
+			children = (
+				D7AE7F872CE60D0400BBE39F /* VolumeController */,
+				D7AE7F992CE60D0500BBE39F /* VolumeControllerTests */,
+				D7AE7FA32CE60D0500BBE39F /* VolumeControllerUITests */,
+				D7AE7F862CE60D0400BBE39F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7AE7F862CE60D0400BBE39F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE7F852CE60D0400BBE39F /* VolumeController.app */,
+				D7AE7F962CE60D0500BBE39F /* VolumeControllerTests.xctest */,
+				D7AE7FA02CE60D0500BBE39F /* VolumeControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7AE7F842CE60D0400BBE39F /* VolumeController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AE7FAA2CE60D0500BBE39F /* Build configuration list for PBXNativeTarget "VolumeController" */;
+			buildPhases = (
+				D7AE7F812CE60D0400BBE39F /* Sources */,
+				D7AE7F822CE60D0400BBE39F /* Frameworks */,
+				D7AE7F832CE60D0400BBE39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D7AE7F872CE60D0400BBE39F /* VolumeController */,
+			);
+			name = VolumeController;
+			packageProductDependencies = (
+			);
+			productName = VolumeController;
+			productReference = D7AE7F852CE60D0400BBE39F /* VolumeController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7AE7F952CE60D0500BBE39F /* VolumeControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AE7FAD2CE60D0500BBE39F /* Build configuration list for PBXNativeTarget "VolumeControllerTests" */;
+			buildPhases = (
+				D7AE7F922CE60D0500BBE39F /* Sources */,
+				D7AE7F932CE60D0500BBE39F /* Frameworks */,
+				D7AE7F942CE60D0500BBE39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AE7F982CE60D0500BBE39F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D7AE7F992CE60D0500BBE39F /* VolumeControllerTests */,
+			);
+			name = VolumeControllerTests;
+			packageProductDependencies = (
+			);
+			productName = VolumeControllerTests;
+			productReference = D7AE7F962CE60D0500BBE39F /* VolumeControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7AE7F9F2CE60D0500BBE39F /* VolumeControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AE7FB02CE60D0500BBE39F /* Build configuration list for PBXNativeTarget "VolumeControllerUITests" */;
+			buildPhases = (
+				D7AE7F9C2CE60D0500BBE39F /* Sources */,
+				D7AE7F9D2CE60D0500BBE39F /* Frameworks */,
+				D7AE7F9E2CE60D0500BBE39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AE7FA22CE60D0500BBE39F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D7AE7FA32CE60D0500BBE39F /* VolumeControllerUITests */,
+			);
+			name = VolumeControllerUITests;
+			packageProductDependencies = (
+			);
+			productName = VolumeControllerUITests;
+			productReference = D7AE7FA02CE60D0500BBE39F /* VolumeControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7AE7F7D2CE60D0400BBE39F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D7AE7F842CE60D0400BBE39F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D7AE7F952CE60D0500BBE39F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D7AE7F842CE60D0400BBE39F;
+					};
+					D7AE7F9F2CE60D0500BBE39F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D7AE7F842CE60D0400BBE39F;
+					};
+				};
+			};
+			buildConfigurationList = D7AE7F802CE60D0400BBE39F /* Build configuration list for PBXProject "VolumeController" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7AE7F7C2CE60D0400BBE39F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D7AE7F862CE60D0400BBE39F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7AE7F842CE60D0400BBE39F /* VolumeController */,
+				D7AE7F952CE60D0500BBE39F /* VolumeControllerTests */,
+				D7AE7F9F2CE60D0500BBE39F /* VolumeControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7AE7F832CE60D0400BBE39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE7F942CE60D0500BBE39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE7F9E2CE60D0500BBE39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7AE7F812CE60D0400BBE39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE7F922CE60D0500BBE39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE7F9C2CE60D0500BBE39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7AE7F982CE60D0500BBE39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AE7F842CE60D0400BBE39F /* VolumeController */;
+			targetProxy = D7AE7F972CE60D0500BBE39F /* PBXContainerItemProxy */;
+		};
+		D7AE7FA22CE60D0500BBE39F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AE7F842CE60D0400BBE39F /* VolumeController */;
+			targetProxy = D7AE7FA12CE60D0500BBE39F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7AE7FA82CE60D0500BBE39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7AE7FA92CE60D0500BBE39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D7AE7FAB2CE60D0500BBE39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VolumeController/VolumeController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolumeController/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goFuncUrself.VolumeController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7AE7FAC2CE60D0500BBE39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VolumeController/VolumeController.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolumeController/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goFuncUrself.VolumeController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7AE7FAE2CE60D0500BBE39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goFuncUrself.VolumeControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolumeController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VolumeController";
+			};
+			name = Debug;
+		};
+		D7AE7FAF2CE60D0500BBE39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goFuncUrself.VolumeControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolumeController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VolumeController";
+			};
+			name = Release;
+		};
+		D7AE7FB12CE60D0500BBE39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goFuncUrself.VolumeControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VolumeController;
+			};
+			name = Debug;
+		};
+		D7AE7FB22CE60D0500BBE39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = goFuncUrself.VolumeControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VolumeController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7AE7F802CE60D0400BBE39F /* Build configuration list for PBXProject "VolumeController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE7FA82CE60D0500BBE39F /* Debug */,
+				D7AE7FA92CE60D0500BBE39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AE7FAA2CE60D0500BBE39F /* Build configuration list for PBXNativeTarget "VolumeController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE7FAB2CE60D0500BBE39F /* Debug */,
+				D7AE7FAC2CE60D0500BBE39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AE7FAD2CE60D0500BBE39F /* Build configuration list for PBXNativeTarget "VolumeControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE7FAE2CE60D0500BBE39F /* Debug */,
+				D7AE7FAF2CE60D0500BBE39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AE7FB02CE60D0500BBE39F /* Build configuration list for PBXNativeTarget "VolumeControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE7FB12CE60D0500BBE39F /* Debug */,
+				D7AE7FB22CE60D0500BBE39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7AE7F7D2CE60D0400BBE39F /* Project object */;
+}
