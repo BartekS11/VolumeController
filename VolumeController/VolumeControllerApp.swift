@@ -37,14 +37,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         
         // Create the menu for the status item
-        let menu = NSMenu()
-        let volumeMeter = NSMenuItem()
-        volumeMeter.view = createVolumeMeter()
-        
-        menu.addItem(volumeMeter)
-        menu.addItem(NSMenuItem.separator())
-        menu.addItem(NSMenuItem(title: "Quit Volume Controller", action: #selector(quitApp), keyEquivalent: "Q"))
-        
+        let menu = createNSMenu()
+       
         statusItem?.menu = menu
     }
     
@@ -52,12 +46,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem?.menu?.popUp(positioning: nil, at: NSPoint(x: 0, y: 0), in: statusItem?.button)
     }
 
-    @objc func sayHello() {
-        let alert = NSAlert()
-        alert.messageText = "Hello, World!"
-        alert.runModal()
-    }
-    
     @objc private func volumeSliderChanged(_ sender: NSSlider) {
           let newVolume = sender.doubleValue / 100.0
           volumeMeter.setSystemVolume(Float(newVolume))
@@ -65,6 +53,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @objc func quitApp() {
         NSApplication.shared.terminate(nil)
+    }
+    
+    private func createNSMenu() -> NSMenu {
+        let menu = NSMenu()
+        
+        let volumeMeterTitle = NSMenuItem(title: "Volume Meter", action: nil, keyEquivalent: "")
+        volumeMeterTitle.isEnabled = false
+        
+        let volumeMeter = NSMenuItem()
+        volumeMeter.view = createVolumeMeter()
+       
+        menu.addItem(volumeMeterTitle)
+        menu.addItem(NSMenuItem.separator())
+        menu.addItem(volumeMeter)
+        menu.addItem(NSMenuItem.separator())
+        menu.addItem(NSMenuItem(title: "Quit Volume Controller", action: #selector(quitApp), keyEquivalent: "Q"))
+        
+        return menu
     }
     
     private func createVolumeMeter() -> NSSlider {
